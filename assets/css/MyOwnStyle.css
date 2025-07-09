@@ -202,7 +202,7 @@
   align-items: center;
   border-top: 4px solid var(--accent-color);
   z-index: 3;
-transform: scale(0.6);
+transform: scale(0.8);
 
 
 display: inline-block;
