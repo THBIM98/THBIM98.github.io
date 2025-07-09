@@ -1,0 +1,158 @@
+/* ==================Header================ */
+
+
+.gradient-background {
+
+
+  /* The magic happens here! */
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  /* Example: Orange to Peach */
+  /* Or a different direction: */
+  /* background: linear-gradient(to bottom, #4facfe, #00f2fe); /* Example: Blue to Cyan */
+  /* background: linear-gradient(45deg, #a1c4fd, #c2e9fb); /* Example: Diagonal with specific angle */
+}
+
+
+/* ============carousel=================== */
+
+.carousel-caption-custom {
+  position: relative;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 10;
+  width: 90%;
+  text-align: center;
+  opacity: 1;
+}
+
+.carousel-caption-custom h3 {
+  color: white;
+}
+
+.image-Addins {
+  height: 500px;
+}
+
+
+
+/* ========Title========== */
+
+
+.TitleAddin {
+  background-color: rgb(26, 81, 153, 0.6);
+}
+
+.TitleAddin h4,
+.TitleAddin p {
+  color: white;
+}
+
+.carousel-item h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  animation: fadeInUp 0.6s ease;
+
+}
+
+.carousel-item p {
+  font-size: 1.2rem;
+
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.TitleWidth {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.myPortfolio {
+  background-color: rgb(0, 0, 0, 0.6);
+  border-radius: 5px;
+
+  border-width: 5px;
+}
+
+.myPortfolio h4 {
+  color: rgb(132, 255, 1);
+  width: fit-content;
+  /* optional */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.myPortfolio p {
+  color: white;
+  width: fit-content;
+  /* optional */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.myPortfolio a {
+  color: white !important;
+  width: fit-content;
+  /* optional */
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.myPortfolio a:hover {
+  color: rgb(47, 255, 0) !important;
+  width: fit-content;
+  /* optional */
+  margin: 0 auto;
+  text-align: center;
+  transform: scale(1.05) translateY(-5px);
+}
+
+.portfolio-item img {
+  transform: scale(0.9);
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-item img:hover {
+  text-align: center;
+  transform: scale(1);
+}
+
+.portfolio-item {
+  border: 0.5px solid rgb(26, 81, 153, 0.6);
+  /* black border */
+  border-radius: 10px;
+  /* optional: rounded corners */
+  /* optional: space inside */
+  margin: 0.15px;
+  padding: 0 !important;
+ 
+}
+
+
+.dropdown li:hover{
+ transform: scale(1.1);
+}
+.dropdown{
+  margin: 0 5px;
+}
