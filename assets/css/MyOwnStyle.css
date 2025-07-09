@@ -156,3 +156,24 @@
 .dropdown{
   margin: 0 5px;
 }
+
+
+.CenteredTitle  {
+  color: rgb(255, 255, 255) !important;
+  
+  /* optional */
+  margin: 0 auto;
+  text-align: center;
+ 
+}
+
+.CenteredTitle:hover {
+  color: rgb(47, 255, 0) !important;
+      width: fit-content;
+      margin: 0 auto;
+      text-align: center;
+      transform: scale(2);
+      display: inline-block; /* needed for transform and margin */
+      /* transition: transform 0.3s ease, color 0.3s ease; */
+      transform: scale(1.05) translateX(10px);
+}
