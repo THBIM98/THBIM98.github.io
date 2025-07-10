@@ -201,7 +201,7 @@
   text-align: center;
   padding-top: 30px;
   padding-bottom: 0px;
-border-radius: 5px;
+  border-radius: 5px;
   align-items: center;
   border-top: 4px solid var(--accent-color);
   z-index: 3;
@@ -237,7 +237,8 @@ border-radius: 5px;
 
   .Editedcontainer {
     margin: 0 auto;
-    left: 45%;
+    left: 60%;
+    transform: scale(0.6);
   }
 }
 
@@ -246,18 +247,17 @@ border-radius: 5px;
 
   .Editedcontainer {
     margin: 0 auto;
-    left: 25%;
+    left: 20%;
+  }
+
+  .RevitPluginByTHBIM {}
+
+  .Coverr {
+    flex-direction: column;  /* Vertical on smaller screens */
+    align-items: center;
   }
 }
 
-@media (max-width: 200px) {
-  .hero .container {}
-
-  .Editedcontainer {
-    margin: 0 auto;
-    left: 5%;
-  }
-}
 
 
 
@@ -287,6 +287,7 @@ border-radius: 5px;
   /* style="transform: scale(0.6);margin-left: -600px; padding: 0px; width: auto;" */
   left: 10%;
   top: 10%;
+  margin-top: -100px;
   /* ✅ This will align it to the right */
 
 }
@@ -310,10 +311,10 @@ border-radius: 5px;
   letter-spacing: 2px;
 }
 
-.THStyle{
- color: rgb(1, 255, 18)!important;
+.THStyle {
+  color: rgb(1, 255, 18) !important;
 }
 
-.BIMStyle{
- color: rgb(7, 103, 247) !important;
+.BIMStyle {
+  color: rgb(7, 103, 247) !important;
 }
