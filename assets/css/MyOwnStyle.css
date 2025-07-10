@@ -183,7 +183,7 @@
 
 
 .carousel-item .container {
-  background: color-mix(in srgb, var(--surface-color), transparent 70%);
+  background: color-mix(in srgb, var(--surface-color), transparent 30%);
   position: relative;
   text-align: center;
   padding-top: 30px;
@@ -196,7 +196,7 @@
 
 
 .Editedcontainer {
-  background: color-mix(in srgb, var(--surface-color), transparent 70%);
+  background: color-mix(in srgb, var(--surface-color), transparent 30%);
   position: relative;
   text-align: center;
   padding-top: 30px;
