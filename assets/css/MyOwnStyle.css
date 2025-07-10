@@ -146,42 +146,44 @@
   /* optional: space inside */
   margin: 0.15px;
   padding: 0 !important;
- 
+
 }
 
 
-.dropdown li:hover{
- transform: scale(1.1);
+.dropdown li:hover {
+  transform: scale(1.1);
 }
-.dropdown{
+
+.dropdown {
   margin: 0 5px;
 }
 
 
-.CenteredTitle  {
+.CenteredTitle {
   color: rgb(255, 255, 255) !important;
-  
+
   /* optional */
   margin: 0 auto;
   text-align: center;
- 
+
 }
 
 .CenteredTitle:hover {
   color: rgb(47, 255, 0) !important;
-      width: fit-content;
-      margin: 0 auto;
-      text-align: center;
-      transform: scale(2);
-      display: inline-block; /* needed for transform and margin */
-      /* transition: transform 0.3s ease, color 0.3s ease; */
-      transform: scale(1.05) translateX(10px);
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  transform: scale(2);
+  display: inline-block;
+  /* needed for transform and margin */
+  /* transition: transform 0.3s ease, color 0.3s ease; */
+  transform: scale(1.05) translateX(10px);
 }
 
 
 
 .carousel-item .container {
-  background: color-mix(in srgb, var(--surface-color), transparent 40%);
+  background: color-mix(in srgb, var(--surface-color), transparent 70%);
   position: relative;
   text-align: center;
   padding-top: 30px;
@@ -192,26 +194,27 @@
   z-index: 3;
 }
 
-.Editedcontainer{
-  background: color-mix(in srgb, var(--surface-color), transparent 40%);
+
+.Editedcontainer {
+  background: color-mix(in srgb, var(--surface-color), transparent 70%);
   position: relative;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 0px;
-  margin-bottom: 10px;
+border-radius: 5px;
   align-items: center;
   border-top: 4px solid var(--accent-color);
   z-index: 3;
-transform: scale(0.8);
+  transform: scale(0.8);
 
-
-display: inline-block;
- padding:5px 60px;
-/* style="transform: scale(0.6);margin-left: -600px; padding: 0px; width: auto;" */
-
-
+  display: inline-block;
+  padding: 5px 20px;
+  /* style="transform: scale(0.6);margin-left: -600px; padding: 0px; width: auto;" */
+  left: 80%;
+  /* ✅ This will align it to the right */
 
 }
+
 .Editedcontainer ul {
   text-align: left;
   padding-left: 20px;
@@ -219,3 +222,98 @@ display: inline-block;
   display: table;
 }
 
+@media (max-width: 1000px) {
+  .hero .container {}
+
+  .Editedcontainer {
+    margin: 0 auto;
+    left: 75%;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .hero .container {}
+
+  .Editedcontainer {
+    margin: 0 auto;
+    left: 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero .container {}
+
+  .Editedcontainer {
+    margin: 0 auto;
+    left: 25%;
+  }
+}
+
+@media (max-width: 200px) {
+  .hero .container {}
+
+  .Editedcontainer {
+    margin: 0 auto;
+    left: 5%;
+  }
+}
+
+
+
+.about {
+  border: 2px solid black;
+  width: 80%;
+  margin: 15px auto;
+  border-radius: 10px;
+}
+
+
+
+
+
+.RevitPluginByTHBIM {
+  position: absolute;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 0px;
+
+  align-items: center;
+  z-index: 1;
+  transform: scale(0.8);
+
+  display: inline-block;
+  padding: 5px 20px;
+  /* style="transform: scale(0.6);margin-left: -600px; padding: 0px; width: auto;" */
+  left: 10%;
+  top: 10%;
+  /* ✅ This will align it to the right */
+
+}
+
+
+.RevitPluginByTHBIM h3 {
+  font-size: 100px;
+  /* ⬅️ Adjust size as needed */
+  font-weight: 1000;
+  color: rgb(0, 123, 255);
+  text-align: center;
+
+  /* Text stroke (outline effect) */
+  -webkit-text-stroke: 1px white;
+  /* Works in WebKit */
+  text-shadow:
+    2px 2px 4px rgba(0, 0, 0, 0.6);
+  /* Fallback shadow for better visibility */
+
+  margin: 10px 0;
+  letter-spacing: 2px;
+}
+
+.THStyle{
+ color: rgb(1, 255, 18)!important;
+}
+
+.BIMStyle{
+ color: rgb(7, 103, 247) !important;
+}
