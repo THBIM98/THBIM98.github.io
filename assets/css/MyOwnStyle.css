@@ -229,6 +229,12 @@
     margin: 0 auto;
     left: 75%;
   }
+
+  
+  .about .our-story {
+    padding: 20px;
+    background-color: color-mix(in srgb, var(--default-color), transparent 96%);
+  }
 }
 
 
@@ -240,6 +246,12 @@
     left: 60%;
     transform: scale(0.6);
   }
+
+  .about .our-story {
+    padding: 10px;
+    background-color: color-mix(in srgb, var(--default-color), transparent 96%);
+  }
+
 }
 
 @media (max-width: 600px) {
@@ -271,6 +283,18 @@
 
   }
 
+  .our-story ul {
+    padding: 0;
+  }
+
+  .our-story {
+    padding: 0;
+  }
+
+  .about .our-story {
+    padding: 0px;
+    background-color: color-mix(in srgb, var(--default-color), transparent 96%);
+  }
 
 }
 
