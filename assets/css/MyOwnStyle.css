@@ -254,9 +254,24 @@
   .RevitPluginByTHBIM {}
 
   .Coverr {
-    flex-direction: column;  /* Vertical on smaller screens */
+    flex-direction: column;
+    /* Vertical on smaller screens */
     align-items: center;
   }
+
+  .portfolio-item {
+    border: 2px solid rgb(26, 81, 153, 0.6);
+    /* black border */
+    border-radius: 10px;
+    /* optional: rounded corners */
+    /* optional: space inside */
+    margin: 10px 1px;
+    padding: 0 !important;
+    padding: 0;
+
+  }
+
+
 }
 
 
